@@ -1,2 +1,2 @@
 #!/bin/bash
-mkfile welcome/to holberton
+mkfile welcome/to/ holberton
