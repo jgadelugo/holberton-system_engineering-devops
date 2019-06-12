@@ -11,3 +11,4 @@ task 6 - create a directory in /tmp/
 task 7 - move betty from /tmp/ to /tmp/holberton
 task 8 - delete betty from/tmp/holberton
 task 9 - delete the holberton directory from /tmp/
+task 10 - change working directory to the previous one
