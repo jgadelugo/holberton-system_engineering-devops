@@ -10,3 +10,4 @@ task 5 - Display current directory in long format w/ user and IDs numerically an
 task 6 - create a directory in /tmp/
 task 7 - move betty from /tmp/ to /tmp/holberton
 task 8 - delete betty from/tmp/holberton
+task 9 - delete the holberton directory from /tmp/
