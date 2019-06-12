@@ -17,6 +17,6 @@ task 12 - type of file in tmp folder
 task 13 - create symbolic link
 task 14 - copy all html files to parent directory
 task 15 - move all files that begin with uppercase letter
-task 16 - 
+task 16 - remove all files that end with ~
 task 17 - 
 task 18 - 
