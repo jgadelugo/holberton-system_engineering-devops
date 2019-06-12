@@ -9,3 +9,4 @@ task 4 - Display current directory contents, including hidden files in long form
 task 5 - Display current directory in long format w/ user and IDs numerically and include hidden files
 task 6 - create a directory in /tmp/
 task 7 - move betty from /tmp/ to /tmp/holberton
+task 8 - delete betty from/tmp/holberton
