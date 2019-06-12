@@ -16,4 +16,7 @@ task 11 - list all files in current, parent and /boot directories in long format
 task 12 - type of file in tmp folder
 task 13 - create symbolic link
 task 14 - copy all html files to parent directory
-task 15 - 
+task 15 - move all files that begin with uppercase letter
+task 16 - 
+task 17 - 
+task 18 - 
