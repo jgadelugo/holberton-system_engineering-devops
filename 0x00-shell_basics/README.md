@@ -18,5 +18,5 @@ task 13 - create symbolic link
 task 14 - copy all html files to parent directory
 task 15 - move all files that begin with uppercase letter
 task 16 - remove all files that end with ~
-task 17 - 
+task 17 - create directory and file with only two spaces
 task 18 - 
