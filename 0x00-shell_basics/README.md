@@ -12,4 +12,6 @@ task 7 - move betty from /tmp/ to /tmp/holberton
 task 8 - delete betty from/tmp/holberton
 task 9 - delete the holberton directory from /tmp/
 task 10 - change working directory to the previous one
-task 11 - list all files in current, parent and /boot directories in long format 
+task 11 - list all files in current, parent and /boot directories in long format
+task 12 - type of file in tmp folder
+task 13 - 
