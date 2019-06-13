@@ -16,4 +16,4 @@ Task 12 - creates a directory called dir_holberton with permissions 751
 Task 13 - change group owner to holberton for the file hello
 Task 14 - change owner to betty and the group owner to holberton
 Task 15 - change owner and group owner of file to betty and holberton
-Task 16 -
+Task 16 - change the owner of the file if file is owned by user guillaume
