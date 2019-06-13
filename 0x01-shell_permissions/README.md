@@ -10,7 +10,7 @@ Task 6 - add execute permission to the owner and the group owner, and read permi
 Task 7 - add execution permission to owner, group owner, and users
 Task 8 - change file permision to owner no permissions, group no permissions, other all permissions
 Task 9 - change permission to -rwxr-x-wx
-Task 10 -
+Task 10 - set mode of the file hello the same as olleh's mode
 Task 11 -
 Task 12 -
 Task 13 -
