@@ -5,8 +5,8 @@ Task 1 - print the effective userid of current user
 Task 2 - print all groups current user is part of
 Task 3 - change the owner of the file hello to user betty
 Task 4 - create empty file called hello
-Task 5 -
-Task 6 -
+Task 5 - add execute permission to the owner of the file hello
+Task 6 - 
 Task 7 -
 Task 8 -
 Task 9 -
