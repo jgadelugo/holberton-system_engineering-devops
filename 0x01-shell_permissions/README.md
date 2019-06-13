@@ -12,7 +12,7 @@ Task 8 - change file permision to owner no permissions, group no permissions, ot
 Task 9 - change permission to -rwxr-x-wx
 Task 10 - set mode of the file hello the same as olleh's mode
 Task 11 - add execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
-Task 12 -
+Task 12 - creates a directory called dir_holberton with permissions 751
 Task 13 -
 Task 14 -
 Task 15 -
