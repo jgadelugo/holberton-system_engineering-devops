@@ -11,7 +11,7 @@ Task 7 - add execution permission to owner, group owner, and users
 Task 8 - change file permision to owner no permissions, group no permissions, other all permissions
 Task 9 - change permission to -rwxr-x-wx
 Task 10 - set mode of the file hello the same as olleh's mode
-Task 11 -
+Task 11 - add execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
 Task 12 -
 Task 13 -
 Task 14 -
