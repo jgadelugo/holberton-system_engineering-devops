@@ -1,7 +1,7 @@
 Shell, Permissions
 
 Task 0 - chage your user ID to betty
-Task 1 - 
+Task 1 - print the effective userid of current user
 Task 2 -
 Task 3 -
 Task 4 -
