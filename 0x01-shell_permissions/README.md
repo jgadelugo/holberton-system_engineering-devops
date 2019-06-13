@@ -14,6 +14,6 @@ Task 10 - set mode of the file hello the same as olleh's mode
 Task 11 - add execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
 Task 12 - creates a directory called dir_holberton with permissions 751
 Task 13 - change group owner to holberton for the file hello
-Task 14 -
+Task 14 - change owner to betty and the group owner to holberton
 Task 15 -
 Task 16 -
