@@ -8,8 +8,8 @@ Task 4 - create empty file called hello
 Task 5 - add execute permission to the owner of the file hello
 Task 6 - add execute permission to the owner and the group owner, and read permission to other users, to the file hello
 Task 7 - add execution permission to owner, group owner, and users
-Task 8 -
-Task 9 -
+Task 8 - change file permision to owner no permissions, group no permissions, other all permissions
+Task 9 - change permission to -rwxr-x-wx
 Task 10 -
 Task 11 -
 Task 12 -
