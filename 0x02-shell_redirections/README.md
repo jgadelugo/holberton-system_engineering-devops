@@ -7,7 +7,7 @@ Task 3 - display contents of two files
 Task 4 - display the last 10 lines of a file
 Task 5 - display the top 10 lines of a file
 Task 6 - display the third line of the file iacta
-Task 7 - 
+Task 7 - create a file named \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School
 Task 8 - 
 Task 9 -
 Task 10 -
