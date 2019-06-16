@@ -10,7 +10,7 @@ Task 6 - display the third line of the file iacta
 Task 7 - create a file named \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School
 Task 8 - display result of command ls -la 
 Task 9 - display last line of the file iacta in a new file
-Task 10 -
+Task 10 - file that deletes all the regular files with a .js in working directory and all subfolders
 Task 11 - 
 Task 12 -
 Task 13 -
