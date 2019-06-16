@@ -6,7 +6,7 @@ Task 2 - display contents of /etc/passwd
 Task 3 - display contents of two files
 Task 4 - display the last 10 lines of a file
 Task 5 - display the top 10 lines of a file
-Task 6 -
+Task 6 - display the third line of the file iacta
 Task 7 - 
 Task 8 - 
 Task 9 -
