@@ -5,7 +5,7 @@ Task 1 - display a confused smiley "(Ôo)'
 Task 2 - display contents of /etc/passwd
 Task 3 - display contents of two files
 Task 4 - display the last 10 lines of a file
-Task 5 - 
+Task 5 - display the top 10 lines of a file
 Task 6 -
 Task 7 - 
 Task 8 - 
