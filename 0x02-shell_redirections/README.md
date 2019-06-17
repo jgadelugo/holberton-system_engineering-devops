@@ -16,7 +16,7 @@ Task 12 - display the 10 newest files in the current directory
 Task 13 - list uniqe words and sort
 Task 14 - display lines containing the pattern "root" from the file /etc/passwd
 Task 15 - display the number of lines that contain the pattern bin
-Task 16 -
+Task 16 - display lines that contain root and 3 lines after them in the file
 Task 17 -
 Task 18 -
 Task 19 -
