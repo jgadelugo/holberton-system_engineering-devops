@@ -10,7 +10,7 @@ Task 6 - create a new local variable "BETTY" with value "Holberton"
 Task 7 - create a new global variable "HOLBERTON" with value "Betty"
 Task 8 - add 128 with the value stored in the ev TRUEKNOWLEDGE
 Task 9 - divide PWER by DIVIDE
-Task 10 -
+Task 10 - display BREATH to the power LOVE
 Task 11 -
 Task 12 -
 Task 13 -
