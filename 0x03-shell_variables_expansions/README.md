@@ -9,7 +9,7 @@ Task 5 - list all local variables and environment variables and functions
 Task 6 - create a new local variable "BETTY" with value "Holberton"
 Task 7 - create a new global variable "HOLBERTON" with value "Betty"
 Task 8 - add 128 with the value stored in the ev TRUEKNOWLEDGE
-Task 9 -
+Task 9 - divide PWER by DIVIDE
 Task 10 -
 Task 11 -
 Task 12 -
