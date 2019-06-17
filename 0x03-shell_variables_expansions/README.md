@@ -1,7 +1,7 @@
 Shell, init files, variables and expansions
 
 Task 1 - create an alias named ls with value "rm *"
-Task 2 -
+Task 2 - print hello (current user)
 Task 3 -
 Task 4 -
 Task 5 -
