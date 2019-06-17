@@ -7,7 +7,7 @@ Task 3 - count the number of directories in the PATH
 Task 4 - list environment variables
 Task 5 - list all local variables and environment variables and functions
 Task 6 - create a new local variable "BETTY" with value "Holberton"
-Task 7 -
+Task 7 - create a new global variable "HOLBERTON" with value "Betty"
 Task 8 -
 Task 9 -
 Task 10 -
