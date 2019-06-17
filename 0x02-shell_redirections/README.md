@@ -12,7 +12,7 @@ Task 8 - display result of command ls -la
 Task 9 - display last line of the file iacta in a new file
 Task 10 - file that deletes all the regular files with a .js in working directory and all subfolders
 Task 11 - count of directories and sub-directories in the current directory, current and parent directories should not be taken into account hidden directories should be counted
-Task 12 -
+Task 12 - display the 10 newest files in the current directory
 Task 13 -
 Task 14 - 
 Task 15 -
