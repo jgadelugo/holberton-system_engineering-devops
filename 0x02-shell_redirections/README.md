@@ -14,7 +14,7 @@ Task 10 - file that deletes all the regular files with a .js in working director
 Task 11 - count of directories and sub-directories in the current directory, current and parent directories should not be taken into account hidden directories should be counted
 Task 12 - display the 10 newest files in the current directory
 Task 13 - list uniqe words and sort
-Task 14 - 
+Task 14 - display lines containing the pattern "root" from the file /etc/passwd
 Task 15 -
 Task 16 -
 Task 17 -
