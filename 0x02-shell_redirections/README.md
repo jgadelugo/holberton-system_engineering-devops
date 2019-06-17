@@ -18,7 +18,7 @@ Task 14 - display lines containing the pattern "root" from the file /etc/passwd
 Task 15 - display the number of lines that contain the pattern bin
 Task 16 - display lines that contain root and 3 lines after them in the file
 Task 17 - display all lines that do not contain the paattern "bin"
-Task 18 -
+Task 18 - display all lines of the file that start with a letter
 Task 19 -
 Task 20 -
 Task 21 -
