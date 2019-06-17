@@ -21,5 +21,5 @@ Task 17 - display all lines that do not contain the paattern "bin"
 Task 18 - display all lines of the file that start with a letter
 Task 19 - replace all characters A and c to Z and e
 Task 20 - remove all letters c and C from input
-Task 21 -
+Task 21 - reverse input
 Task 22 - 
