@@ -22,4 +22,4 @@ Task 18 - display all lines of the file that start with a letter
 Task 19 - replace all characters A and c to Z and e
 Task 20 - remove all letters c and C from input
 Task 21 - reverse input
-Task 22 - 
+Task 22 - display all users and their home directories, sort by users
