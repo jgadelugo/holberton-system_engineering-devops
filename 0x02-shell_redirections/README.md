@@ -23,3 +23,4 @@ Task 19 - replace all characters A and c to Z and e
 Task 20 - remove all letters c and C from input
 Task 21 - reverse input
 Task 22 - display all users and their home directories, sort by users
+Task 23 - find all empty files and directories in current directory and all sub-directories
