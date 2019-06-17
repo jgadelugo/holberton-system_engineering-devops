@@ -1,9 +1,10 @@
 Shell, init files, variables and expansions
 
-Task 1 - create an alias named ls with value "rm *"
-Task 2 - print hello (current user)
-Task 3 - add /action to the path
-Task 4 -
+Task 0 - create an alias named ls with value "rm *"
+Task 1 - print hello (current user)
+Task 2 - add /action to the path
+Task 3 - count the number of directories in the PATH
+Task 4 - list environment variables
 Task 5 -
 Task 6 -
 Task 7 -
