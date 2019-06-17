@@ -6,7 +6,7 @@ Task 2 - add /action to the path
 Task 3 - count the number of directories in the PATH
 Task 4 - list environment variables
 Task 5 - list all local variables and environment variables and functions
-Task 6 -
+Task 6 - create a new local variable "BETTY" with value "Holberton"
 Task 7 -
 Task 8 -
 Task 9 -
