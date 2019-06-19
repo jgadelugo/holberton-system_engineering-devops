@@ -18,3 +18,5 @@ Task 14 -convert DECIMAL from base 10 to base 16
 Task 15 - blog on ls *c
 Task 16 - blog on Symbolic Link vs Hard Link
 Adv Task 17 - Script that encodes and decodes text using the rot13 encryption
+Adv Task 18 - print every other line from the input, starting with the first line
+Adv Task 19 - add the numbers stored in the environment variables 
