@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | cut -f1 | uniq -c | sort -n | tail -n 11 | sort -r | cut --delimiter=" " -f6
+sort | cut -f1 | uniq -c | sort -nr | head -n 11 | cut --d=" " -f6
