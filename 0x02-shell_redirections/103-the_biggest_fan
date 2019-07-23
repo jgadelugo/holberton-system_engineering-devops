@@ -1,0 +1,2 @@
+#!/bin/bash
+cat nasa_19950801.tsv | sort | cut -f1 | uniq -c | sort -n | tail -n 11 | sort -r | cut --delimiter=" " -f6
