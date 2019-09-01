@@ -1,3 +1,3 @@
-Holberton project 2
+## Holberton System Engineering Projects
 
-Shell Basics
+Shell 101
