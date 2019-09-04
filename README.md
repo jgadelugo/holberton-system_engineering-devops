@@ -72,3 +72,14 @@
 * [Parse through TSV file and print the 11 hosts or IP addresses with the most requests](0x00-shell_basics/103-the_biggest_fan)
 
 ## 0x03 Shell Variables expansions
+* [Create alias with name ls with value rm *](0x03-shell_variables_expansions/0-alias)
+* [Prints hello (current Linux user)](0x03-shell_variables_expansions/1-hello_you)
+* [Add /action to the PATH](0x03-shell_variables_expansions/2-path)
+* [Count number of directories](0x03-shell_variables_expansions/3-paths)
+* [List environment variables](0x03-shell_variables_expansions/5-local_variables)
+* [Creates a new local variable](0x03-shell_variables_expansions/6-create_local_variable)
+* [Create a new global variable](0x03-shell_variables_expansions/7-create_global_variable)
+* [Print the result of the addition of 128 with the value stored in a environment variable](0x03-shell_variables_expansions/8-true_knowledge)
+* 
+* 
+
