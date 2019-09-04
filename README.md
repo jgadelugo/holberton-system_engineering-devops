@@ -72,6 +72,7 @@
 * [Parse through TSV file and print the 11 hosts or IP addresses with the most requests](0x00-shell_basics/103-the_biggest_fan)
 
 ## 0x03 Shell Variables expansions
+
 * [Create alias with name ls with value rm *](0x03-shell_variables_expansions/0-alias)
 * [Prints hello (current Linux user)](0x03-shell_variables_expansions/1-hello_you)
 * [Add /action to the PATH](0x03-shell_variables_expansions/2-path)
@@ -80,6 +81,10 @@
 * [Creates a new local variable](0x03-shell_variables_expansions/6-create_local_variable)
 * [Create a new global variable](0x03-shell_variables_expansions/7-create_global_variable)
 * [Print the result of the addition of 128 with the value stored in a environment variable](0x03-shell_variables_expansions/8-true_knowledge)
-* 
-* 
-
+* [Print the result of two environment variables divided](0x03-shell_variables_expansions/9-divide_and_rule)
+* [Print the result of one environment variable to the power of the other](0x03-shell_variables_expansions/10-love_exponent_breath)
+* [Converts a number from base 2 to base 10](0x03-shell_variables_expansions/11-binary_to_decimal)
+* [Creates all possible combinations of two letters, except oo](0x03-shell_variables_expansions/12-combinations)
+* [Prints a number with two decimal places](0x03-shell_variables_expansions/13-print_float)
+* [Converts a number from base 10 to base 16](0x03-shell_variables_expansions/14-decimal_to_hexadecimal)
+* [Encodes and decodes text using the rot13 encryption](0x03-shell_variables_expansions/100-rot13)
