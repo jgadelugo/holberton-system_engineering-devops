@@ -2,9 +2,9 @@
 # This script is displaying "Holberton School " 10 times
 i="0"
 
-while [ $i -lt 10 ]
+while [ $i -lt 11 ]
 do
-if (( i == 8)); then
+if (( i == 9)); then
 	echo "hi"
 else
 echo "Holberton School"
