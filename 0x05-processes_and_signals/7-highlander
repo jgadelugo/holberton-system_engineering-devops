@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Script that displays pids of processes contating bash
+# Script that displays infinity and beyond non stop and cant be killed
 
-trap "I am invincible!!!" SIGTERM
+trap 'echo "I am invincible!!!"' SIGTERM
 while true; do
 	echo "To infinity and beyond"
 	sleep 2
