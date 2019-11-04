@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script that displays pids of processes contating bash
+pkill -SIGKILL -f "7-highlander"
