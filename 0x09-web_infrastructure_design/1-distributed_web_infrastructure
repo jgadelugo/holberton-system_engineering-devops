@@ -1,0 +1,34 @@
+# Design a three server web infrastructure that hosts the website www.foobar.com
+
+## Must have
+* 2 servers
+* 1 web server (Nginx)
+* 1 application server
+* 1 application server
+* 1 load-balancer (HAproxy)
+* 1 set of application files (code base)
+* 1 database (MySQL)
+
+## Questions
+
+* Why did we add each additional element?
+
+* What distribution algorithm your load balancer is configured with and how it works?
+
+* Is your load-balancer enabling an Active-Active or Active-Passiver setup? Explain the difference.
+
+* How a database Primary-Replica (Master-Slave) cluster works?
+
+* What is the difference between the primary node and the REplica node in regards to the application
+
+
+## What are the issues with this infrastructure?
+
+* Where are SPOF?
+
+* Security isses? (no firewall, no HTTPS)
+
+* no monitoring?
+
+
+## URL to design of a three server web infrastructure
