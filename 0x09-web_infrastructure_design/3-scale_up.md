@@ -12,3 +12,5 @@
 ## Questions
 
 * Why did we add each additional element?
+
+[URL to design of a three server web infrastructure](https://imgur.com/a/U594TaV)

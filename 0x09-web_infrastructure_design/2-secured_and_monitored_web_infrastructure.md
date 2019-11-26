@@ -1,11 +1,11 @@
 # Design a three server web infrastructure that hosts the website www.foobar.com, it must be secured, serve encrypted traffic, and be monitored
 
-# Must have
+## Must have
 * 3 firewalls
 * 1 SSL certificate to serve www.foobar.com over HTTPS
 * 3 monitoring clients(data collector for Sumologic or other monitoring services)
 
-# Questions
+## Questions
 
 * Why did we add each additional element?
 
@@ -29,4 +29,5 @@
 * Why having servers with all the same components (database, webserver and application server) might be a problem?
 
 
-## URL to design of a three server web infrastructure that is secured, serve encrypted traffic, and be monitored
+[URL to design of a three server web infrastructure](https://imgur.com/a/U594TaV)
+

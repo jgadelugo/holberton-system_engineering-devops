@@ -31,4 +31,4 @@
 * no monitoring?
 
 
-## URL to design of a three server web infrastructure
+[URL to design of a three server web infrastructure](https://imgur.com/a/U594TaV)

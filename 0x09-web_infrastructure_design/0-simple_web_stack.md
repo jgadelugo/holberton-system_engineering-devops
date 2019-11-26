@@ -34,4 +34,4 @@
 
 * Cannot scale if too much incoming traffic?
 
-## URL to design of one server web infrastructur
+[URL to design of one server web infrastructur](https://imgur.com/a/U594TaV)
