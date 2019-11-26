@@ -8,17 +8,17 @@
 ## Questions
 
 * Why did we add each additional element?
-
+    firewall protects us hacks?infiltration/penetration, ssl protects others from collecting user data, monitors servers
 * What are firewalls for?
-
+    protect from infiltration/penetrations/virus
 * Why is the traffic served over HTTPS?
-
+    To protect user data
 * What is monitoring used for?
-
+    monitoring is used to check on server that it is working
 * How does the monitoring tool collect data?
 
 * Explain what to do if you want to monitor your web server QPS?
-
+    
 
 ## What are the issues with this infrastructure?
 
