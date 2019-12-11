@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Bash Script that transfers a file from our client to a server
+
+if [ $# -eq 4 ]; then
+	scp -i $4 -o 'StrictHostKeyChecking=no' $1 '$3@$2':./
+fi
