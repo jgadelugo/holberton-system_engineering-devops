@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 # set up server 2
+sudo -i
 sudo apt-get -y update
 sudo apt-get -y install nginx
 sudo mkdir -p /var/www/html
 sudo echo "Holberton School" >> "/var/www/html/index.html"
 sudo sed -i "25i add_header X-Served-By \$hostname;" /etc/nginx/nginx.conf
 sudo service nginx reload
+sudo service nginx restart
