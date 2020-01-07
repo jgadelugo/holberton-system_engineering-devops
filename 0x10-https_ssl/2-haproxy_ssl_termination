@@ -1,0 +1,65 @@
+global
+	log /dev/log	local0
+	log /dev/log	local1 notice
+	chroot /var/lib/haproxy
+	stats socket /run/haproxy/admin.sock mode 660 level admin
+	stats timeout 30s
+	user haproxy
+	group haproxy
+	daemon
+
+	# Default SSL material locations
+	ca-base /etc/ssl/certs
+	crt-base /etc/ssl/private
+
+	# Default ciphers to use on SSL-enabled listening sockets.
+	# For more information, see ciphers(1SSL). This list is from:
+	#  https://hynek.me/articles/hardening-your-web-servers-ssl-ciphers/
+	ssl-default-bind-ciphers ECDH+AESGCM:DH+AESGCM:ECDH+AES256:DH+AES256:ECDH+AES128:DH+AES:ECDH+3DES:DH+3DES:RSA+AESGCM:RSA+AES:RSA+3DES:!aNULL:!MD5:!DSS
+	ssl-default-bind-options no-sslv3
+
+defaults
+	log	global
+	mode	http
+	option	httplog
+	option	dontlognull
+        timeout connect 5000
+        timeout client  50000
+        timeout server  50000
+	errorfile 400 /etc/haproxy/errors/400.http
+	errorfile 403 /etc/haproxy/errors/403.http
+	errorfile 408 /etc/haproxy/errors/408.http
+	errorfile 500 /etc/haproxy/errors/500.http
+	errorfile 502 /etc/haproxy/errors/502.http
+	errorfile 503 /etc/haproxy/errors/503.http
+	errorfile 504 /etc/haproxy/errors/504.http
+frontend haproxynode
+    bind *:80
+    bind *:443 ssl crt /etc/ssl/www.tiktoks.tech/www.tiktoks.tech.pem
+    mode http
+    default_backend backendnodes
+backend backendnodes
+    balance roundrobin
+    server 824-web-01 34.73.37.244:80 check
+    server 824-web-02 34.74.25.167:80 check
+
+# The frontend only listens on port 80
+# If it detects a LetsEncrypt request, is uses the LE backend
+# Else it goes to the default backend for the web servers
+frontend fe-scalinglaravel
+    bind *:80
+
+    # Test URI to see if its a letsencrypt request
+    acl letsencrypt-acl path_beg /.well-known/acme-challenge/
+    use_backend letsencrypt-backend if letsencrypt-acl
+
+    default_backend be-scalinglaravel
+
+# LE Backend
+backend letsencrypt-backend
+    server letsencrypt 127.0.0.1:8888
+
+# Normal (default) Backend
+# for web app servers
+backend be-scalinglaravel
+    # Config omitted here
