@@ -34,8 +34,7 @@ if __name__ == "__main__":
 
     _data = []
     for task in tasks:
-        users_info = {"USER_ID": _id,
-                      "username": user_name,
+        users_info = {"username": user_name,
                       "completed": task.get("completed"),
                       "task": task.get("title")}
         _data.append(users_info)
