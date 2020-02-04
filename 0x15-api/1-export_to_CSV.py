@@ -1,7 +1,7 @@
 #!/usr/bin/python3
+from csv import DictWriter
 import requests
 from sys import argv
-from csv import DictWriter
 
 
 # creates CSV file - takes in dictionary
