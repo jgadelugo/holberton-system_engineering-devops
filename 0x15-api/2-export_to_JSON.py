@@ -11,6 +11,7 @@ def to_json_string(list_dictionaries):
         return "[]"
     return json.dumps(list_dictionaries)
 
+
 # saves json to json file
 def save_to_file(LO_dict, name):
     """ write into a .json file """
