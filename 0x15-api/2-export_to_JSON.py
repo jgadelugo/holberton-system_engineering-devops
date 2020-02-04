@@ -34,9 +34,9 @@ if __name__ == "__main__":
 
     _data = []
     for task in tasks:
-        users_info = {"username": user_name,
+        users_info = {"task": task.get("title"),
                       "completed": task.get("completed"),
-                      "task": task.get("title")}
+                      "username": user_name}
         _data.append(users_info)
 
     save_to_file({_id: _data}, _id)
