@@ -7,7 +7,7 @@ from sys import argv
 # creates CSV file - takes in dictionary
 def write_to_csv(_data, _id):
     """takes in data as a dictionary, and the id for name """
-    with open("{}.csv".format(_id), "w", encoding='utf-8') as file:
+    with open("{}.csv".format(_id), "w") as file:
         headers = ["USER_ID", "USERNAME",
                    "TASK_COMPLETED_STATUS", "TASK_TITLE"]
         csv_writer = DictWriter(file, fieldnames=headers)
