@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     response = requests.get(user_url)
     use_info = response.json()
-    user_name = use_info.get("name")
+    user_name = use_info.get("username")
 
     res = requests.get(tasks_url)
     tasks = res.json()
