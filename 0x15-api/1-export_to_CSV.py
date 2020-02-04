@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from csv import DictWriter
+from csv import DictWriter, QUOTE_ALL
 import requests
 from sys import argv
 
@@ -10,7 +10,7 @@ def write_to_csv(_data, _id):
     with open("{}.csv".format(_id), "w") as file:
         headers = ["USER_ID", "USERNAME",
                    "TASK_COMPLETED_STATUS", "TASK_TITLE"]
-        csv_writer = DictWriter(file, fieldnames=headers)
+        csv_writer = DictWriter(file, fieldnames=headers, quoting=QUOTE_ALL)
         for apt in _data:
             csv_writer.writerow(apt)
     return
