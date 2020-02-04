@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     response = requests.get(user_url)
     use_info = response.json()
-    user_name = use_info["name"]
+    user_name = use_info.get("name")
 
     res = requests.get(tasks_url)
     tasks = res.json()
@@ -33,8 +33,8 @@ if __name__ == "__main__":
     for task in tasks:
         users_info = {"USER_ID": _id,
                       "USERNAME": user_name,
-                      "TASK_COMPLETED_STATUS": task["completed"],
-                      "TASK_TITLE": task["title"]}
+                      "TASK_COMPLETED_STATUS": task.get("completed"),
+                      "TASK_TITLE": task.get("title")}
         _data.append(users_info)
 
     write_to_csv(_data, _id)
