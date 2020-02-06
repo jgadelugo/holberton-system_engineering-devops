@@ -35,7 +35,12 @@ def top_ten(subreddit):
     query = "https://oauth.reddit.com{}".format(subreddit)
     res = requests.get(query, headers=headers, params=param)
 
-    data = res.json()
-    posts = data["data"]['children']
-    for post in posts:
-        print(post['data']['title'])
+    status = res.status_code
+
+    if (status != 200):
+        print("None")
+    else:
+        data = res.json()
+        posts = data["data"]['children']
+        for post in posts:
+            print(post['data']['title'])
