@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+""" querry reddit api for subreddit info"""
 import requests
 import requests.auth
 
