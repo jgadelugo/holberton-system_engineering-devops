@@ -78,7 +78,7 @@ def count_words(subreddit, word_list):
         words[word] = 0
     hot_list = recurse(subreddit)
     for hot in hot_list:
-        # hot.translate(str.maketrans('', '', string.punctuation))
+        hot.translate(str.maketrans('', '', string.punctuation))
         for h in hot.lower().split():
             if h in word_list:
                 words[h] += 1
