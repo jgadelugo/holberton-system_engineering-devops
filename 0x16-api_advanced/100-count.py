@@ -80,7 +80,6 @@ def count_words(subreddit, word_list):
         words[word] = 0
     hot_list = recurse(subreddit)
     if hot_list is None:
-        print()
         return
     for hot in hot_list:
         hot.translate(str.maketrans('', '', string.punctuation))
@@ -92,5 +91,3 @@ def count_words(subreddit, word_list):
         if words[key] != 0:
             print("{}: {}".format(key, words[key]))
             flag = 1
-    if flag == 0:
-        print()
