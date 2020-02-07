@@ -57,7 +57,6 @@ def recurse(subreddit, hot_list=[], after=[], t_type=None, a_token=None):
     status = res.status_code
 
     if (status != 200):
-        print(f"Damn status {status}")
         return None
     else:
         data = res.json()
