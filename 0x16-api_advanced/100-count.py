@@ -7,7 +7,6 @@ import string
 from time import sleep
 
 
-
 def authenticate():
     """ authenticate function
     doesnt take parameters returns token_type and access_token
@@ -74,7 +73,6 @@ def recurse(subreddit, hot_list=[], after=[], t_type=None, a_token=None):
 
 def count_words(subreddit, word_list):
     """ count words """
-    flag = 0
     words = {}
     for word in word_list:
         words[word] = 0
