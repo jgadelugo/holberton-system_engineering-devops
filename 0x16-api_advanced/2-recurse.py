@@ -8,6 +8,7 @@ from time import sleep
 
 def authenticate():
     """ authenticate function
+    doesnt take parameters returns token_type and access_token
     """
     usr_name = "jgadelugo"
     temp = "HolbertonPass845"
@@ -32,7 +33,8 @@ def authenticate():
 
 
 def recurse(subreddit, hot_list=[], after=[], t_type=None, a_token=None):
-    """ querry reddit api
+    """ querry reddit api for hot post
+    recursively get all hot post from subreddit
     """
     sub = subreddit
     subreddit = "/r/{}/hot".format(sub)
