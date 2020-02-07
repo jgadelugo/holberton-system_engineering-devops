@@ -3,8 +3,9 @@
 """
 import requests
 import requests.auth
-from time import sleep
 import string
+from time import sleep
+
 
 
 def authenticate():
