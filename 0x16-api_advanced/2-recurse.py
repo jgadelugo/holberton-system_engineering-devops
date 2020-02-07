@@ -6,6 +6,7 @@ from time import sleep
 
 
 def authenticate():
+    """ authenticate function """
     usr_name = "jgadelugo"
     temp = "HolbertonPass845"
 
