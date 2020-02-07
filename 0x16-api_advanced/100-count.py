@@ -73,10 +73,14 @@ def recurse(subreddit, hot_list=[], after=[], t_type=None, a_token=None):
 
 def count_words(subreddit, word_list):
     """ count words """
+    flag = 0
     words = {}
     for word in word_list:
         words[word] = 0
     hot_list = recurse(subreddit)
+    if hot_list == None:
+        print()
+        return
     for hot in hot_list:
         hot.translate(str.maketrans('', '', string.punctuation))
         for h in hot.lower().split():
@@ -86,3 +90,6 @@ def count_words(subreddit, word_list):
     for key in words:
         if words[key] != 0:
             print("{}: {}".format(key, words[key]))
+            flag = 1
+    if flag == 0:
+        print()
