@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-""" querry reddit api for subreddit info"""
+""" querry reddit api for subreddit info
+"""
 import requests
 import requests.auth
 from time import sleep
 
 
 def authenticate():
-    """ authenticate function """
+    """ authenticate function 
+    """
     usr_name = "jgadelugo"
     temp = "HolbertonPass845"
 
@@ -30,7 +32,8 @@ def authenticate():
 
 
 def recurse(subreddit, hot_list=[], after=[], t_type=None, a_token=None):
-    """ querry reddit api"""
+    """ querry reddit api
+    """
     sub = subreddit
     subreddit = "/r/{}/hot".format(sub)
     usr_name = "jgadelugo"
