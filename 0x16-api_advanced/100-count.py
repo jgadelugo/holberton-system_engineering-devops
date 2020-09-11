@@ -83,8 +83,9 @@ def count_words(subreddit, word_list):
     for hot in hot_list:
         hot.translate(str.maketrans('', '', string.punctuation))
         for h in hot.lower().split():
-            if h in word_list:
-                words[h] += 1
+            for word in word_list:
+                if h.lower() == word.lower():
+                    words[word] += 1
     sorted_keys = sorted(words, key=words.get, reverse=True)
     for key in sorted_keys:
         if words[key] != 0:
