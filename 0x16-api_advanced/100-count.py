@@ -86,10 +86,10 @@ def count_words(subreddit, word_list):
             for word in word_list:
                 if h.lower() == word.lower():
                     words[word] += 1
-    sorted_keys = sorted(words, key=words.get, reverse=True)
-    for key in sorted_keys:
-        if words[key] != 0:
-            print("{}: {}".format(key, words[key]))
+    sorted_words = sorted(words.items(), key=lambda x: (-x[1], x[0]))
+    for key, value in sorted_words:
+        if value != 0:
+            print("{}: {}".format(key, value))
             flag = 1
     if flag == 0:
         print()
